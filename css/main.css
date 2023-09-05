@@ -88,7 +88,7 @@ will-change: transform;
 		transform: scale(1); }*/
 	
     .gallery_item img{
-        width: 100%;
+        width: auto%;
     }
  
 }
