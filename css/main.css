@@ -67,7 +67,3 @@ will-change: transform;
     opacity: 0;
     transition-duration: 1s;
 }
-	img{
-        image-rendering: auto;
-        image-rendering: crisp-edges;
-    }
