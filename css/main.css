@@ -67,8 +67,8 @@ will-change: transform;
     opacity: 0;
     transition-duration: 1s;
 }
-	/* @media (max-width : 992px) {
- 
+	@media (max-width : 992px) {
+/*  
 	.header {
 		position: relative;
 	}
@@ -86,15 +86,9 @@ will-change: transform;
 	}
 	.gallery__item:hover {
 		transform: scale(1);
-	}
+     }*/
+	
     .gallery_item img{
-        width: 100%;
+        width: calc(var(--index));
     }
- 
-} */
-img{
-    -webkit-backface-visibility: hidden;
-    -ms-transform: translateZ(0);
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
 }
