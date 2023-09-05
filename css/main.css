@@ -85,10 +85,10 @@ will-change: transform;
 		transform: scale(1);
 	}
 	.gallery__item:hover {
-		transform: scale(1);
-     }*/
+		transform: scale(1); }*/
 	
     .gallery_item img{
-        width: calc(var(--index));
+        width: 100%;
     }
+ 
 }
