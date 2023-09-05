@@ -92,3 +92,6 @@ will-change: transform;
     }
  
 } */
+img{
+    image-rendering: pixelated;
+}
